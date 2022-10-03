@@ -1,0 +1,57 @@
+
+
+
+
+.button {
+    text-align: center;
+}
+
+
+#buttons {
+    width: 100px;
+    height: 34px;
+
+}
+
+
+
+
+.profile_info:hover,
+.user_orders:hover {
+    cursor: pointer;
+}
+
+table {
+    display: none;
+
+}
+
+tr,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0.5% 0%;
+}
+
+th {
+    background-color: green;
+}
+
+h1 {
+    margin-left: 14%;
+}
+
+@media(min-width: 375px),
+(max-width: 1023px) {
+
+    .input-group label {
+        width: 50%;
+        margin-right: 3%;
+    }
+
+    .buttons {
+
+        width: 40%;
+    }
+}
